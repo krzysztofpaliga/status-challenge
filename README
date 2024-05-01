@@ -1,0 +1,5 @@
+Test Dependencies: docker, grep, awk, xargs, bash installed
+Test Environment: No other docker containers running. No docker network waku present. No 172.18.0.0/16 docker network present.
+Running Tests:
+    ./test_suite_1/start.sh
+    ./test_suite_2/start.sh
